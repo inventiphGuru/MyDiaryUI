@@ -174,14 +174,23 @@ textbox {
     }
   }
 }
+.pagination {
+    display: inline-block;
+}
 
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
 .button {
   border:0;
   outline:none;
   border-radius:0;
   padding:15px 0;
   font-size:20px;
-  font-weight:$bold;
+  font-weight:bold;
   text-transform:uppercase;
   letter-spacing:.1em;
   background:#6bb188;
@@ -198,7 +207,7 @@ textbox {
 
 .button-block {
   display:block;
-  width:100%;
+  width:20%;
 }
 
 .forgot {
